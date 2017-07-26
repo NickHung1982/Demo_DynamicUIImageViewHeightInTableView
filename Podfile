@@ -7,14 +7,6 @@ target 'TimeSetCode' do
 
   # Pods for TimeSetCode
   pod 'SDWebImage'
-  target 'TimeSetCodeTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
-
-  target 'TimeSetCodeUITests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+  
 
 end
