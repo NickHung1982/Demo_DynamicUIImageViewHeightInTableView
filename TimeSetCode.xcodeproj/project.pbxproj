@@ -1,0 +1,790 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C44FE15CE829E3A01AED137 /* Pods_TimeSetCode.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E3D8E73D45372C6EF6F89D04 /* Pods_TimeSetCode.framework */; };
+		377E06101EEEEAF90053E3FB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E060F1EEEEAF90053E3FB /* AppDelegate.swift */; };
+		377E06121EEEEAF90053E3FB /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E06111EEEEAF90053E3FB /* ViewController.swift */; };
+		377E06151EEEEAF90053E3FB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E06131EEEEAF90053E3FB /* Main.storyboard */; };
+		377E06181EEEEAF90053E3FB /* TimeSetCode.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 377E06161EEEEAF90053E3FB /* TimeSetCode.xcdatamodeld */; };
+		377E061A1EEEEAF90053E3FB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 377E06191EEEEAF90053E3FB /* Assets.xcassets */; };
+		377E061D1EEEEAF90053E3FB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 377E061B1EEEEAF90053E3FB /* LaunchScreen.storyboard */; };
+		377E06281EEEEAF90053E3FB /* TimeSetCodeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E06271EEEEAF90053E3FB /* TimeSetCodeTests.swift */; };
+		377E06331EEEEAF90053E3FB /* TimeSetCodeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E06321EEEEAF90053E3FB /* TimeSetCodeUITests.swift */; };
+		377E06411EEEED760053E3FB /* RootTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 377E06401EEEED760053E3FB /* RootTabBarController.swift */; };
+		37C843791EEEEED2001259B1 /* LineVeiw.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C843781EEEEED2001259B1 /* LineVeiw.swift */; };
+		37C8437C1EEEF653001259B1 /* SwiftyJSON.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8437B1EEEF653001259B1 /* SwiftyJSON.swift */; };
+		37C8437E1EEEF670001259B1 /* DataObjs.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C8437D1EEEF670001259B1 /* DataObjs.swift */; };
+		37C843801EEEFEBE001259B1 /* sample.json in Resources */ = {isa = PBXBuildFile; fileRef = 37C8437F1EEEFEBE001259B1 /* sample.json */; };
+		37C843821EEF0E1B001259B1 /* CustomCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 37C843811EEF0E1B001259B1 /* CustomCell.swift */; };
+		438B7C30B9DF8203F30E2873 /* Pods_TimeSetCodeTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49DC661D8C3B4B49DA00BB8E /* Pods_TimeSetCodeTests.framework */; };
+		B71B33019F2DFA3044D41570 /* Pods_TimeSetCodeUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 895732379263F80EE9C1C8C8 /* Pods_TimeSetCodeUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		377E06241EEEEAF90053E3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377E06041EEEEAF90053E3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377E060B1EEEEAF90053E3FB;
+			remoteInfo = TimeSetCode;
+		};
+		377E062F1EEEEAF90053E3FB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 377E06041EEEEAF90053E3FB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 377E060B1EEEEAF90053E3FB;
+			remoteInfo = TimeSetCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		377E060C1EEEEAF90053E3FB /* TimeSetCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TimeSetCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E060F1EEEEAF90053E3FB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		377E06111EEEEAF90053E3FB /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		377E06141EEEEAF90053E3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		377E06171EEEEAF90053E3FB /* TimeSetCode.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = TimeSetCode.xcdatamodel; sourceTree = "<group>"; };
+		377E06191EEEEAF90053E3FB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		377E061C1EEEEAF90053E3FB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		377E061E1EEEEAF90053E3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377E06231EEEEAF90053E3FB /* TimeSetCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSetCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E06271EEEEAF90053E3FB /* TimeSetCodeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSetCodeTests.swift; sourceTree = "<group>"; };
+		377E06291EEEEAF90053E3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377E062E1EEEEAF90053E3FB /* TimeSetCodeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TimeSetCodeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		377E06321EEEEAF90053E3FB /* TimeSetCodeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeSetCodeUITests.swift; sourceTree = "<group>"; };
+		377E06341EEEEAF90053E3FB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		377E06401EEEED760053E3FB /* RootTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RootTabBarController.swift; path = ../RootTabBarController.swift; sourceTree = "<group>"; };
+		37C843781EEEEED2001259B1 /* LineVeiw.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = LineVeiw.swift; path = ../LineVeiw.swift; sourceTree = "<group>"; };
+		37C8437B1EEEF653001259B1 /* SwiftyJSON.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftyJSON.swift; sourceTree = "<group>"; };
+		37C8437D1EEEF670001259B1 /* DataObjs.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataObjs.swift; sourceTree = "<group>"; };
+		37C8437F1EEEFEBE001259B1 /* sample.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = sample.json; sourceTree = "<group>"; };
+		37C843811EEF0E1B001259B1 /* CustomCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = CustomCell.swift; path = cell/CustomCell.swift; sourceTree = "<group>"; };
+		49DC661D8C3B4B49DA00BB8E /* Pods_TimeSetCodeTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSetCodeTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		554048E5F4D03F7E021B7AB6 /* Pods-TimeSetCodeUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCodeUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCodeUITests/Pods-TimeSetCodeUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		895732379263F80EE9C1C8C8 /* Pods_TimeSetCodeUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSetCodeUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89E124C6546869B978B6BA41 /* Pods-TimeSetCodeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCodeTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCodeTests/Pods-TimeSetCodeTests.debug.xcconfig"; sourceTree = "<group>"; };
+		CBA0502A8435CC054B68A40E /* Pods-TimeSetCode.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCode.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCode/Pods-TimeSetCode.debug.xcconfig"; sourceTree = "<group>"; };
+		D15972DADC76E433C50A71D7 /* Pods-TimeSetCodeTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCodeTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCodeTests/Pods-TimeSetCodeTests.release.xcconfig"; sourceTree = "<group>"; };
+		D2B9193F9EB2BFD902205A40 /* Pods-TimeSetCode.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCode.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCode/Pods-TimeSetCode.release.xcconfig"; sourceTree = "<group>"; };
+		E3D8E73D45372C6EF6F89D04 /* Pods_TimeSetCode.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TimeSetCode.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E80E5967D2DDF6D90484E91F /* Pods-TimeSetCodeUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TimeSetCodeUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-TimeSetCodeUITests/Pods-TimeSetCodeUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		377E06091EEEEAF90053E3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C44FE15CE829E3A01AED137 /* Pods_TimeSetCode.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E06201EEEEAF90053E3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438B7C30B9DF8203F30E2873 /* Pods_TimeSetCodeTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E062B1EEEEAF90053E3FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B71B33019F2DFA3044D41570 /* Pods_TimeSetCodeUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		25B5277E9F95E21ACB3CC6F9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E3D8E73D45372C6EF6F89D04 /* Pods_TimeSetCode.framework */,
+				49DC661D8C3B4B49DA00BB8E /* Pods_TimeSetCodeTests.framework */,
+				895732379263F80EE9C1C8C8 /* Pods_TimeSetCodeUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		377E06031EEEEAF90053E3FB = {
+			isa = PBXGroup;
+			children = (
+				377E060E1EEEEAF90053E3FB /* TimeSetCode */,
+				377E06261EEEEAF90053E3FB /* TimeSetCodeTests */,
+				377E06311EEEEAF90053E3FB /* TimeSetCodeUITests */,
+				377E060D1EEEEAF90053E3FB /* Products */,
+				9F74748BB3EF395920BADF51 /* Pods */,
+				25B5277E9F95E21ACB3CC6F9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		377E060D1EEEEAF90053E3FB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				377E060C1EEEEAF90053E3FB /* TimeSetCode.app */,
+				377E06231EEEEAF90053E3FB /* TimeSetCodeTests.xctest */,
+				377E062E1EEEEAF90053E3FB /* TimeSetCodeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		377E060E1EEEEAF90053E3FB /* TimeSetCode */ = {
+			isa = PBXGroup;
+			children = (
+				37C8437A1EEEF653001259B1 /* classes */,
+				37C843831EEF0E23001259B1 /* cell */,
+				377E060F1EEEEAF90053E3FB /* AppDelegate.swift */,
+				377E06111EEEEAF90053E3FB /* ViewController.swift */,
+				377E06131EEEEAF90053E3FB /* Main.storyboard */,
+				377E06191EEEEAF90053E3FB /* Assets.xcassets */,
+				377E061B1EEEEAF90053E3FB /* LaunchScreen.storyboard */,
+				377E061E1EEEEAF90053E3FB /* Info.plist */,
+				377E06161EEEEAF90053E3FB /* TimeSetCode.xcdatamodeld */,
+				37C8437F1EEEFEBE001259B1 /* sample.json */,
+			);
+			path = TimeSetCode;
+			sourceTree = "<group>";
+		};
+		377E06261EEEEAF90053E3FB /* TimeSetCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				377E06271EEEEAF90053E3FB /* TimeSetCodeTests.swift */,
+				377E06291EEEEAF90053E3FB /* Info.plist */,
+			);
+			path = TimeSetCodeTests;
+			sourceTree = "<group>";
+		};
+		377E06311EEEEAF90053E3FB /* TimeSetCodeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				377E06321EEEEAF90053E3FB /* TimeSetCodeUITests.swift */,
+				377E06341EEEEAF90053E3FB /* Info.plist */,
+			);
+			path = TimeSetCodeUITests;
+			sourceTree = "<group>";
+		};
+		37C8437A1EEEF653001259B1 /* classes */ = {
+			isa = PBXGroup;
+			children = (
+				37C843781EEEEED2001259B1 /* LineVeiw.swift */,
+				377E06401EEEED760053E3FB /* RootTabBarController.swift */,
+				37C8437B1EEEF653001259B1 /* SwiftyJSON.swift */,
+				37C8437D1EEEF670001259B1 /* DataObjs.swift */,
+			);
+			path = classes;
+			sourceTree = "<group>";
+		};
+		37C843831EEF0E23001259B1 /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				37C843811EEF0E1B001259B1 /* CustomCell.swift */,
+			);
+			name = cell;
+			sourceTree = "<group>";
+		};
+		9F74748BB3EF395920BADF51 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CBA0502A8435CC054B68A40E /* Pods-TimeSetCode.debug.xcconfig */,
+				D2B9193F9EB2BFD902205A40 /* Pods-TimeSetCode.release.xcconfig */,
+				89E124C6546869B978B6BA41 /* Pods-TimeSetCodeTests.debug.xcconfig */,
+				D15972DADC76E433C50A71D7 /* Pods-TimeSetCodeTests.release.xcconfig */,
+				554048E5F4D03F7E021B7AB6 /* Pods-TimeSetCodeUITests.debug.xcconfig */,
+				E80E5967D2DDF6D90484E91F /* Pods-TimeSetCodeUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		377E060B1EEEEAF90053E3FB /* TimeSetCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E06371EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCode" */;
+			buildPhases = (
+				3CFA1D1F8BC37B27466BDFD6 /* [CP] Check Pods Manifest.lock */,
+				377E06081EEEEAF90053E3FB /* Sources */,
+				377E06091EEEEAF90053E3FB /* Frameworks */,
+				377E060A1EEEEAF90053E3FB /* Resources */,
+				A1299C41D13B555142BC6546 /* [CP] Embed Pods Frameworks */,
+				64F99DE55B299A8E96AD758A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TimeSetCode;
+			productName = TimeSetCode;
+			productReference = 377E060C1EEEEAF90053E3FB /* TimeSetCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		377E06221EEEEAF90053E3FB /* TimeSetCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E063A1EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCodeTests" */;
+			buildPhases = (
+				6B0253598DC265A2F5A692BD /* [CP] Check Pods Manifest.lock */,
+				377E061F1EEEEAF90053E3FB /* Sources */,
+				377E06201EEEEAF90053E3FB /* Frameworks */,
+				377E06211EEEEAF90053E3FB /* Resources */,
+				366A7F4A4A167966B9ABEB99 /* [CP] Embed Pods Frameworks */,
+				965136E30B572187AA1CA086 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377E06251EEEEAF90053E3FB /* PBXTargetDependency */,
+			);
+			name = TimeSetCodeTests;
+			productName = TimeSetCodeTests;
+			productReference = 377E06231EEEEAF90053E3FB /* TimeSetCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		377E062D1EEEEAF90053E3FB /* TimeSetCodeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 377E063D1EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCodeUITests" */;
+			buildPhases = (
+				8F19C3A2347A4A8FD3F486D7 /* [CP] Check Pods Manifest.lock */,
+				377E062A1EEEEAF90053E3FB /* Sources */,
+				377E062B1EEEEAF90053E3FB /* Frameworks */,
+				377E062C1EEEEAF90053E3FB /* Resources */,
+				FF3F2EFD5835E20B922AA1FD /* [CP] Embed Pods Frameworks */,
+				4B135E71EDE23E08018BCB28 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				377E06301EEEEAF90053E3FB /* PBXTargetDependency */,
+			);
+			name = TimeSetCodeUITests;
+			productName = TimeSetCodeUITests;
+			productReference = 377E062E1EEEEAF90053E3FB /* TimeSetCodeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		377E06041EEEEAF90053E3FB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = NickOwn;
+				TargetAttributes = {
+					377E060B1EEEEAF90053E3FB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2A624895QU;
+						ProvisioningStyle = Automatic;
+					};
+					377E06221EEEEAF90053E3FB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2A624895QU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 377E060B1EEEEAF90053E3FB;
+					};
+					377E062D1EEEEAF90053E3FB = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = 2A624895QU;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 377E060B1EEEEAF90053E3FB;
+					};
+				};
+			};
+			buildConfigurationList = 377E06071EEEEAF90053E3FB /* Build configuration list for PBXProject "TimeSetCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 377E06031EEEEAF90053E3FB;
+			productRefGroup = 377E060D1EEEEAF90053E3FB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				377E060B1EEEEAF90053E3FB /* TimeSetCode */,
+				377E06221EEEEAF90053E3FB /* TimeSetCodeTests */,
+				377E062D1EEEEAF90053E3FB /* TimeSetCodeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		377E060A1EEEEAF90053E3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E061D1EEEEAF90053E3FB /* LaunchScreen.storyboard in Resources */,
+				37C843801EEEFEBE001259B1 /* sample.json in Resources */,
+				377E061A1EEEEAF90053E3FB /* Assets.xcassets in Resources */,
+				377E06151EEEEAF90053E3FB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E06211EEEEAF90053E3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E062C1EEEEAF90053E3FB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		366A7F4A4A167966B9ABEB99 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCodeTests/Pods-TimeSetCodeTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3CFA1D1F8BC37B27466BDFD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4B135E71EDE23E08018BCB28 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCodeUITests/Pods-TimeSetCodeUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		64F99DE55B299A8E96AD758A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCode/Pods-TimeSetCode-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6B0253598DC265A2F5A692BD /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8F19C3A2347A4A8FD3F486D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		965136E30B572187AA1CA086 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCodeTests/Pods-TimeSetCodeTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1299C41D13B555142BC6546 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCode/Pods-TimeSetCode-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF3F2EFD5835E20B922AA1FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TimeSetCodeUITests/Pods-TimeSetCodeUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		377E06081EEEEAF90053E3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37C843791EEEEED2001259B1 /* LineVeiw.swift in Sources */,
+				377E06181EEEEAF90053E3FB /* TimeSetCode.xcdatamodeld in Sources */,
+				377E06411EEEED760053E3FB /* RootTabBarController.swift in Sources */,
+				37C8437C1EEEF653001259B1 /* SwiftyJSON.swift in Sources */,
+				37C8437E1EEEF670001259B1 /* DataObjs.swift in Sources */,
+				377E06121EEEEAF90053E3FB /* ViewController.swift in Sources */,
+				37C843821EEF0E1B001259B1 /* CustomCell.swift in Sources */,
+				377E06101EEEEAF90053E3FB /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E061F1EEEEAF90053E3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E06281EEEEAF90053E3FB /* TimeSetCodeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		377E062A1EEEEAF90053E3FB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				377E06331EEEEAF90053E3FB /* TimeSetCodeUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		377E06251EEEEAF90053E3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377E060B1EEEEAF90053E3FB /* TimeSetCode */;
+			targetProxy = 377E06241EEEEAF90053E3FB /* PBXContainerItemProxy */;
+		};
+		377E06301EEEEAF90053E3FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 377E060B1EEEEAF90053E3FB /* TimeSetCode */;
+			targetProxy = 377E062F1EEEEAF90053E3FB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		377E06131EEEEAF90053E3FB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377E06141EEEEAF90053E3FB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		377E061B1EEEEAF90053E3FB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				377E061C1EEEEAF90053E3FB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		377E06351EEEEAF90053E3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		377E06361EEEEAF90053E3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		377E06381EEEEAF90053E3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CBA0502A8435CC054B68A40E /* Pods-TimeSetCode.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		377E06391EEEEAF90053E3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2B9193F9EB2BFD902205A40 /* Pods-TimeSetCode.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCode/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCode;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		377E063B1EEEEAF90053E3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89E124C6546869B978B6BA41 /* Pods-TimeSetCodeTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSetCode.app/TimeSetCode";
+			};
+			name = Debug;
+		};
+		377E063C1EEEEAF90053E3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D15972DADC76E433C50A71D7 /* Pods-TimeSetCodeTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCodeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TimeSetCode.app/TimeSetCode";
+			};
+			name = Release;
+		};
+		377E063E1EEEEAF90053E3FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 554048E5F4D03F7E021B7AB6 /* Pods-TimeSetCodeUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeSetCode;
+			};
+			name = Debug;
+		};
+		377E063F1EEEEAF90053E3FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E80E5967D2DDF6D90484E91F /* Pods-TimeSetCodeUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				DEVELOPMENT_TEAM = 2A624895QU;
+				INFOPLIST_FILE = TimeSetCodeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = nick.com.TimeSetCodeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = TimeSetCode;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		377E06071EEEEAF90053E3FB /* Build configuration list for PBXProject "TimeSetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E06351EEEEAF90053E3FB /* Debug */,
+				377E06361EEEEAF90053E3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E06371EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E06381EEEEAF90053E3FB /* Debug */,
+				377E06391EEEEAF90053E3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E063A1EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E063B1EEEEAF90053E3FB /* Debug */,
+				377E063C1EEEEAF90053E3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		377E063D1EEEEAF90053E3FB /* Build configuration list for PBXNativeTarget "TimeSetCodeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				377E063E1EEEEAF90053E3FB /* Debug */,
+				377E063F1EEEEAF90053E3FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		377E06161EEEEAF90053E3FB /* TimeSetCode.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				377E06171EEEEAF90053E3FB /* TimeSetCode.xcdatamodel */,
+			);
+			currentVersion = 377E06171EEEEAF90053E3FB /* TimeSetCode.xcdatamodel */;
+			path = TimeSetCode.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 377E06041EEEEAF90053E3FB /* Project object */;
+}
